@@ -63,7 +63,7 @@ feature-depth = 1
 # More documentation for the advisories section can be found here:
 # https://embarkstudios.github.io/cargo-deny/checks/advisories/cfg.html
 [advisories]
-db-path = "~\\.cargo\\advisory-dbs"  # 更新为正确的路径
+db-path = "~/.cargo/advisory-dbs"  # 更新为正确的路径
 db-urls = ["https://github.com/rustsec/advisory-db"]
 # The path where the advisory databases are cloned/fetched into
 #db-path = "$CARGO_HOME/advisory-dbs"
